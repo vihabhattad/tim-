@@ -65,25 +65,23 @@ text-align: center;
 vertical-align: middle;
 }
 .menu{
-list-style: none;
-font-family: sans-serif;
-position: absolute;
-top: 10px;
-right: 30px;
-cursor: pointer;
+position: fixed;
+background: white;
+width: 100%;
+margin-top: 0px;
+top: 0px;
 z-index: 10;
 }
 .links{
-float: left;
-color: black;
-padding top:5 px;
-padding-left: 9px;
-padding-right: 9px;
-padding-bottom: 5px;
+display: inline;
+padding-left: 33px;
+padding-right: 25px;
 font-family: fantasy;
 font-size: 20px;
-}.links:hover{
-background-color: burlywood; 
+}
+.links:hover{
+font-size: 25px;
+text-decoration:underline;
 }
 a{
 text-decoration: none
@@ -92,6 +90,24 @@ text-decoration: none
 }
 html{
 scroll-behavior: smooth;
+}
+#writings a{
+text-shadow: none !important;
+text-decoration: underline !important;
+color: blue !important;
+}
+#contact{
+background: white; 
+}
+#contact iframe{
+width: 100%;
+}
+.contact1 h3{
+display: inline;  
+}
+.contact1 a{
+color: black;
+text-shadow: none;
 }
 
 
